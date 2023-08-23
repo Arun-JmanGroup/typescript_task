@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color:wheat !important;
+}
+
+h2{
+   padding: 1rem;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+}
+
+.input-group{
+    width: 15rem !important;
+    margin-left: 75%;
+}
+
+.btn-outline-primary i{
+    width: 1rem !important;
+}
+
+
+.taskInputDiv{
+    margin-top: 2%;
+    margin-left: 42%;
+}
+.taskInput{
+    padding: 8px 50px;
+    border-radius: 5px;
+    border-width: thin;
+}
+.taskButton{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.taskDisplayDiv{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.maintable{
+    max-width: 70%;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    padding:3rem;
+}
+
+.trash{
+    width: 60%;
+    border-radius: 2px;
+}
